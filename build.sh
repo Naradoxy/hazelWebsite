@@ -9,3 +9,5 @@ pug views --out docs
 cp -r public/* docs/
 
 echo "Build complete!"
+
+# run: ./build.sh
