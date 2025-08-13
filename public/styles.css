@@ -1,11 +1,35 @@
 body {
-    font-family: sans-serif;
-    background: linear-gradient(30deg, #7700FF, #000000);
-    color: #fdfdfd;
-    padding: 2rem;
+  font-family: sans-serif;
+  background-image: url("images/prettyStars.png");
+  background-position: center calc(var(--scroll) * 0.5);
 
-  }
+  color: #fdfdfd;
+  padding: 2rem;
+}
 
-  a {
-    color: #ffd2ff;
-  }
+header {
+  margin: 0px auto 20px;
+  text-align: center;
+}
+
+.box {
+  width: 900px;
+  margin: 80px auto;
+  background: -webkit-linear-gradient(100deg, #ffffff44 0%, #dab6ff3f 100%);
+  padding: 5px 40px 20px; /*top, sides, bottom*/
+  border-radius: 20px;
+}
+
+img {
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+a {
+  color: #ddbcfd;
+}
+
+.bySide {
+  display: inline-block;
+  margin-right: 40px;
+}

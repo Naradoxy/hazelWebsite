@@ -4,6 +4,10 @@ html
     title= title
     link(rel="stylesheet", href="styles.css")
     link(rel="icon", href="images/favicon.png", type="image/png")
+    script.
+      window.addEventListener('scroll', () => {
+        document.documentElement.style.setProperty('--scroll', window.scrollY + 'px');
+      });
   body
     header
         a(href="index")
