@@ -1,4 +1,5 @@
 extends layout
+include games/blocks.pug
 
 block content
   div.box
@@ -29,6 +30,10 @@ block content
     h2 Additional
     p Languages: English (fluent), Français (first language), Norsk (conversational), Dutch (learning)
     p Art & Audio: Personal art (Krita), quick‑prototype art (Paint.NET), music tracks on Soundtrap (learning FL Studio)
+  +game("dd")
+  +game("pb")
+  +game("wcp")
+  +game("hvw")
   div.box
     h2 Projects
     p Deeper Darker (Godot, 2025)

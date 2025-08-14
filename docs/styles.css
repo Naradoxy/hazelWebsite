@@ -23,10 +23,22 @@ header {
 
 .box {
   width: 900px;
-  margin: 80px auto;
+  margin: auto;
+  margin-top: 70px;
   background: -webkit-linear-gradient(100deg, #ffffff44 0%, #dab6ff3f 100%);
   padding: 5px 40px 20px; /*top, sides, bottom*/
   border-radius: 20px;
+}
+.container {
+  display: flex;
+  margin: auto;
+  width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container .box {
+  margin: auto;
+  margin-top: 70px;
 }
 
 img {
