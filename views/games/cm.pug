@@ -1,8 +1,11 @@
-extends layout
+extends ../layout
 
 block content
     div.box
-        h1 
-        p
+        h1 Crank Mansion (Godot, 2023)
+        p First person roguelite–style prototype: explore a haunted mansion, snag the treasure and escape alive. Playable for at least an hour. Most art was made by my partner, everything else by me.
+        p [The game is not available to be played - we can arange a private demo if wanted]
     div.container
-        img(src="images/myFace.jpg", alt="Game screenshot")
+        video.big(controls autoplay muted loop)
+            source(src="images/cm0.mp4" type="video/mp4")
+            | Your browser does not support the video tag.

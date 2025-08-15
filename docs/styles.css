@@ -32,21 +32,39 @@ header {
 .container {
   display: flex;
   margin: auto;
-  width: 1200px;
+  align-items: center;
+  width: 90%;
   flex-wrap: wrap;
   justify-content: center;
 }
 .container .box {
   margin: auto;
   margin-top: 70px;
+  max-width: 55%;
 }
 
 img {
   border-radius: 8px;
   margin: 0 auto;
 }
-img.face {
+.face {
   width: 400px;
+}
+.ss {
+  max-width: 600px;
+  margin: 30px auto;
+  margin-top: 70px;
+  max-width: 30%;
+}
+video {
+  border-radius: 8px;
+  margin: 0 auto;
+  margin: 30px auto;
+  margin-top: 70px;
+  max-width: 30%;
+}
+video.big {
+  max-width: 60%;
 }
 
 a {
