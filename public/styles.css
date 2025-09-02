@@ -43,6 +43,8 @@ header {
   max-width: 55%;
 }
 
+
+
 img {
   border-radius: 8px;
   margin: 0 auto;
@@ -51,21 +53,56 @@ img {
   width: 400px;
 }
 .ss {
-  max-width: 600px;
   margin: 30px auto;
   margin-top: 70px;
-  max-width: 30%;
+  max-width: 40%;
 }
 video {
   border-radius: 8px;
-  margin: 0 auto;
   margin: 30px auto;
   margin-top: 70px;
-  max-width: 30%;
+  max-width: 50%;
 }
 video.big {
   max-width: 60%;
 }
+
+
+.project {
+  width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+  background: -webkit-linear-gradient(100deg, #ffffff44 0%, #dab6ff3f 100%);
+  padding: 25px;
+  border-radius: 20px;
+  color: #fdfdfd;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 8%;
+}
+.project div {
+  width: 50%;
+  margin: 0, 20px;
+  float: left;
+  flex-grow: 2;
+}
+.project img {
+  width: 40%;
+  margin: 0, 20px;
+  float: left;
+}
+.project video {
+  width: 40%;
+  margin: 0, 20px;
+  float: left;
+}
+.project:hover {
+  background: -webkit-linear-gradient(100deg, #ffffff6b 0%, #dbb6ff63 100%);
+  color: #eddaff;
+}
+
+
 
 a {
   font-family: "M PLUS Rounded 1c", sans-serif;

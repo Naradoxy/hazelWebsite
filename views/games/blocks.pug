@@ -2,60 +2,60 @@ mixin game(name)
     .container 
         case name 
             when "dd"
-                .box
-                    h3 Deeper Darker (Godot, 2025) Solo
-                    p Fully networked first person horror game built in 1-2 weeks. The game was incomplete but fully playble with working game loop.
-                    p [Networking, Enemy AI, Implementing sounds]
-                    a(href="dd") See more
-                img.ss(src="images/dd0.png", alt="Game screenshot")
+                a(href="dd").project
+                    div
+                        h3 Deeper Darker (Godot, 2025) Solo
+                        p Fully networked first person horror game built in 1-2 weeks. The game was incomplete but fully playble with working game loop.
+                        p [Networking, Enemy AI, Implementing sounds]
+                    img(src="images/dd0.png", alt="Game screenshot")
             when "pb"
-                img.ss(src="images/pb0.png", alt="Game screenshot")
-                .box
-                    h3 Punch Ball (Godot, 2025) Solo
-                    p Local team-vs-team party game; playable build & source available.
-                    p [Local multiplayer, Polish, Good visuals & sounds]
-                    a(href="pb") See more
+                a(href="pb").project
+                    img(src="images/pb0.png", alt="Game screenshot")
+                    div
+                        h3 Punch Ball (Godot, 2025) Solo
+                        p Local team-vs-team party game; playable build & source available.
+                        p [Local multiplayer, Polish, Good visuals & sounds]
             when "wcp"
-                .box
-                    h3 Wizard Cat Proto (Gamemaker, 2024) Solo
-                    p Roguelike prototype with custom spell-casting system; built in 1-2 weeks.
-                    p [System desing, Creative concepts]
-                    a(href="wcp") See more
-                img.ss(src="images/wcp0.png", alt="Game screenshot")
+                a(href="wcp").project
+                    div
+                        h3 Wizard Cat Proto (Gamemaker, 2024) Solo
+                        p Roguelike prototype with custom spell-casting system; built in 1-2 weeks.
+                        p [System desing, Creative concepts]
+                    img(src="images/wcp0.png", alt="Game screenshot")
             when "hvw"
-                img.ss(src="images/hvw0.gif", alt="Game screenshot")
-                .box
-                    h3 Hazel’s Various Wings (IntelliJ, 2024) Teambased: Did everything except the art
-                    p Minecraft mod that adds wings to allow the player to fly.
-                    p [Java, Quick learning]
-                    a(href="hvw") See more
+                a(href="hvw").project
+                    img(src="images/hvw0.gif", alt="Game screenshot")
+                    div
+                        h3 Hazel’s Various Wings (IntelliJ, 2024) Teambased: Did everything except the art
+                        p Minecraft mod that adds wings to allow the player to fly.
+                        p [Java, Quick learning]
             when "fhp"
-                .box
-                    h3 Fjolet Helvete Proto (Godot, 2023) Solo
-                    p Multiplayer prototype in the browser, mobile friendly, with tile placement and chat.
-                    p [Networking, Custom mobile input system]
-                    a(href="fhp") See more
-                img.ss(src="images/fhp0.png", alt="Game screenshot")
+                a(href="fhp").project
+                    div
+                        h3 Fjolet Helvete Proto (Godot, 2023) Solo
+                        p Multiplayer prototype in the browser, mobile friendly, with tile placement and chat.
+                        p [Networking, Custom mobile input system]
+                    img(src="images/fhp0.png", alt="Game screenshot")
             when "cm"
-                video(controls autoplay muted loop)
-                    source(src="images/cm0.mp4" type="video/mp4")
-                    | Your browser does not support the video tag.
-                .box
-                    h3 Crank Mansion (Godot, 2023) Teambased: I did most but I got help for some art
-                    p First person roguelite about getting artifacts from a haunted mansion. One hour of quality gameplay.
-                    p [Quality & quantity, Visuals, Polish]
-                    a(href="cm") See more
+                a(href="cm").project
+                    video(controls autoplay muted loop)
+                        source(src="images/cm0.mp4" type="video/mp4")
+                        | Your browser does not support the video tag.
+                    div
+                        h3 Crank Mansion (Godot, 2023) Teambased: I did most but I got help for some art
+                        p First person roguelite about getting artifacts from a haunted mansion. One hour of quality gameplay.
+                        p [Quality & quantity, Visuals, Polish]
             when "hg"
-                .box
-                    h3 Halloween Grind (GameMaker, 2021) Solo
-                    p Muliplayer trick or treat game with upgrades.
-                    p [Networking, Polish]
-                    a(href="hg") See more
-                img.ss(src="images/hg0.png", alt="Game screenshot")
+                a(href="hg").project
+                    div
+                        h3 Halloween Grind (GameMaker, 2021) Solo
+                        p Muliplayer trick or treat game with upgrades.
+                        p [Networking, Polish]
+                    img(src="images/hg0.png", alt="Game screenshot")
             default
-                img.ss(src="images/dd0.png", alt="Game screenshot")
-                .box
-                    h3  Solo
-                    p a
-                    p []
-                    a(href="") See more
+                a(href="").project
+                    img(src="images/dd0.png", alt="Game screenshot")
+                    div
+                        h3  Solo
+                        p a
+                        p []
