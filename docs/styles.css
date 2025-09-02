@@ -69,15 +69,15 @@ video.big {
 
 
 .project {
-  width: 1200px;
+  width: 1100px;
   margin: auto;
   margin-top: 70px;
   background: -webkit-linear-gradient(100deg, #ffffff44 0%, #dab6ff3f 100%);
   padding: 25px;
   border-radius: 20px;
   color: #fdfdfd;
-  text-decoration: none;
   display: flex;
+  text-decoration: none;
   justify-content: space-around;
   gap: 8%;
 }
@@ -104,10 +104,13 @@ video.big {
 
 
 
-a {
+.box a {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 500;
   color: #ddbcfd;
+}
+.box a:hover {
+  color: #aa50ff;
 }
 
 .bySide {
