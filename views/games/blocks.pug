@@ -1,6 +1,13 @@
 mixin game(name)
     .container 
         case name 
+            when "dm"
+                a(href="").project
+                    img(src="images/dm1.png", alt="Game screenshot")
+                    div
+                        h3 Dead Mice (Unreal 2025) Team: In engine work and technical gameplay design
+                        p Capstone project with Circuit Stream. Autoshooter roguelike made in 4 weeks.
+                        p [Student project, Team]
             when "dd"
                 a(href="dd").project
                     div
@@ -26,7 +33,7 @@ mixin game(name)
                 a(href="hvw").project
                     img(src="images/hvw0.gif", alt="Game screenshot")
                     div
-                        h3 Hazel’s Various Wings (IntelliJ, 2024) Teambased: Did everything except the art
+                        h3 Hazel’s Various Wings (IntelliJ, 2024) Team: Did everything except the art
                         p Minecraft mod that adds wings to allow the player to fly.
                         p [Java, Quick learning]
             when "fhp"
@@ -42,7 +49,7 @@ mixin game(name)
                         source(src="images/cm0.mp4" type="video/mp4")
                         | Your browser does not support the video tag.
                     div
-                        h3 Crank Mansion (Godot, 2023) Teambased: I did most but I got help for some art
+                        h3 Crank Mansion (Godot, 2023) Team: I did most but I got help for some art
                         p First person roguelite about getting artifacts from a haunted mansion. One hour of quality gameplay.
                         p [Quality & quantity, Visuals, Polish]
             when "hg"
