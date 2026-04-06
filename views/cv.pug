@@ -2,37 +2,58 @@ extends layout
 include games/blocks.pug
 
 block content
-  div.box
-    h1 Emanuel (Hazel) Charron-Blais
-    p Aspiring Game Developer - Solo Indie Game Developer
-    p.bySide NB, Canada 
-    p.bySide 📧 naradoxy@gmail.com
-    a.bySide(href="https://www.linkedin.com/in/emanuel-charron-blais-8a42a0302/") Linkedin
-    a.bySide(href="portfolio") Portfolio
+  div.container
+    div.box
+        h1 Emanuel (Hazel) Charron-Blais
+        p.bySide Game Developer / Designer
+        p.bySide They/She
+        p.bySide NB, Canada 
+        a.bySide(href="https://www.linkedin.com/in/emanuel-charron-blais-8a42a0302/") Linkedin: https://www.linkedin.com/in/emanuel-charron-blais-8a42a0302/
+        p.bySide 📧 Email: naradoxy@gmail.com
+        a.bySide(href="portfolio") CV: https://naradoxy.github.io/hazelWebsite/portfolio
+    img.face(src="images/myFace.jpg", alt="Emanuel's profile image")
+  div.container
+    img(src="images/sbadge.png", alt="Game Designer UofT Badge")
+    div.box
+      h5 Circuit Stream Certified Professional Game Designer | University of Toronto School of Continuing Studies
+      a(href="https://www.credly.com/organizations/circuit-stream/badges") Issued by Circuit Stream
   div.box
     h2 Summary / Objective
     p I'm a lifelong gamer turned developer who's built game projects since age 10.
     p Passionate about small-team collaboration and crafting memorable gameplay experiences.
     p Seeking a junior role where I can help bring creative visions to life while learning from seasoned devs.
   div.box
+    h2 Highlights
+    p Created a Minecraft mod with over 1000 downloads
+    p Ranked Overall #19 out of 124 entries in a gamejam
+    p Made many fully networked multiplayer games
+    p Skilled with self teaching from a young age
+    p Uploaded games to itch.io since 2020
+  div.box
     h2 Skills
     p Engines: Godot (primary), Unreal, Gamemaker
     p Languages: C#, GDScript, GDShader, GameMakerLanguage, Java, JavaScript, HTML/CSS, Pug
-    p Tools & Art: Krita, DaVinci Resolve, Blender (basic), Paint.NET, Audacity, Soundtrap
+    p Tools & Art: Krita, DaVinci Resolve, Blender (basic), Paint.NET, Audacity, Soundtrap, FL Studio
     p Version Control: Git, Github, Sourcetree, Github Desktop
+  div.box
+    h2 About me
+    p I enjoy drawing, sometimes making music, playing games to get all the achievements, taking care of my cats, and certainly making games.
+    p All this time I've been making games pretty much solo, but I am so excited to take the next steps and delve into the industry and work in a team who love games as genuinely as I do.
+    p For me, it's not just about finishing a game; It's about the process and crafting an experience for others to enjoy.
   div.box
     h2 Education
     p Game Design Course, CircuitStream (via University of Toronto)
+    p Teaches students deep knowledge on game design and prepares them for the industry.
     p   Feb 2025 - Sep 2025
     p High School Diploma, École Polyvalente Louis-J.-Robichaud
     p   Graduated 2024
   div.box
     h2 Additional
-    p Languages: English (fluent), Français (first language), Norsk (conversational), Dutch (learning)
-    p Art & Audio: Personal art (Krita), quick‑prototype art (Paint.NET), music tracks on Soundtrap (learning FL Studio)
+    p Languages: English (fluent), Français (first language), Dutch (learning)
+    p Art & Audio: Personal art (Krita), quick‑prototype art (Paint.NET), music (Soundtrap and FL Studio)
   div.box
-    h2 Projects:
+    h2 Highlight Projects:
+  +game("hbt")
+  +game("dm")
   +game("dd")
   +game("pb")
-  +game("wcp")
-  +game("hvw")
